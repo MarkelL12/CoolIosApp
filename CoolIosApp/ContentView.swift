@@ -12,6 +12,9 @@ struct ContentView: View {
         Text("Nice")
             .padding()
     }
+    Button(action: {}) {
+        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
