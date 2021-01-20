@@ -11,10 +11,11 @@ struct ContentView: View {
     var body: some View {
         Text("Nice")
             .padding()
+        Button(action: {}) {
+            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
+        }
     }
-    Button(action: {}) {
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Button")/*@END_MENU_TOKEN@*/
-    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
